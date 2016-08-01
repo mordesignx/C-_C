@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>cap3-1.c</itemPath>
+      <itemPath>caso1.c</itemPath>
+      <itemPath>caso2.c</itemPath>
+      <itemPath>caso3.c</itemPath>
+      <itemPath>caso4.c</itemPath>
+      <itemPath>caso6.c</itemPath>
+      <itemPath>cuar1.c</itemPath>
+      <itemPath>funcmac1.c</itemPath>
+      <itemPath>funcmac2.c</itemPath>
+      <itemPath>funcmac3.c</itemPath>
+      <itemPath>funcmac4.c</itemPath>
+      <itemPath>funcmac5.c</itemPath>
+      <itemPath>funcmac6.c</itemPath>
+      <itemPath>funcmac7.c</itemPath>
+      <itemPath>funcmac8.c</itemPath>
+      <itemPath>funcmac8_1.c</itemPath>
+      <itemPath>hello.c</itemPath>
+      <itemPath>i1.c</itemPath>
+      <itemPath>ibucles.c</itemPath>
+      <itemPath>ibucles2.c</itemPath>
+      <itemPath>ibucles3.c</itemPath>
+      <itemPath>ibucles4.c</itemPath>
+      <itemPath>ibucles5.c</itemPath>
+      <itemPath>ipracbu1.c</itemPath>
+      <itemPath>ipracbu2.c</itemPath>
+      <itemPath>ipracbuc3.c</itemPath>
+      <itemPath>ipracbuc4.c</itemPath>
+      <itemPath>pract1.c</itemPath>
+      <itemPath>pract2.c</itemPath>
+      <itemPath>quin1.c</itemPath>
+      <itemPath>suma2.c</itemPath>
+      <itemPath>tercaso1.c</itemPath>
+      <itemPath>unocuatro.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="cap3-1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="caso1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="caso2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="caso3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="caso4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="caso6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cuar1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcmac1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcmac2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcmac3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcmac4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcmac5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcmac6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcmac7.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcmac8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcmac8_1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="hello.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="i1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ibucles.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ibucles2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ibucles3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ibucles4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ibucles5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ipracbu1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ipracbu2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ipracbuc3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ipracbuc4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="pract1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="pract2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="quin1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="suma2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tercaso1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="unocuatro.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="cap3-1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="caso1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="caso2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="caso3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="caso4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="caso6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cuar1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcmac1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcmac2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcmac3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcmac4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcmac5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcmac6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcmac7.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcmac8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcmac8_1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="hello.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="i1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ibucles.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ibucles2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ibucles3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ibucles4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ibucles5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ipracbu1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ipracbu2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ipracbuc3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ipracbuc4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="pract1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="pract2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="quin1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="suma2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tercaso1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="unocuatro.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

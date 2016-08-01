@@ -1,0 +1,56 @@
+<<< parametros >>>
+
+<<<por valor con funcion
+
+void sumar_valor(int numero);
+
+int main(void){
+    
+    int numero = 57;
+    
+    sumar_valor(numero); /*hacemos una comunicacion con suma_valor(int numero)
+                          *enviamos numero a la funcion
+                          */
+    
+    printf("Valor de numero dentro de main() es: %d\n", numero);
+    
+    return 0;
+    
+}
+
+void sumar_valor(int numero){
+    
+    numero++; //le sumamos 1 al numero
+    
+    printf("Valor de numero dentro de sumar_valor() es: %d\n", numero);
+    
+    return;
+    
+}
+
+
+
+<<<por referencia con funcion
+
+
+void sumar_referencia(int *numero);
+
+int main(void){
+    
+    int numero = 57;
+    
+    sumar_referencia(&numero);
+    
+    printf("\nValor de numero dentro de main() es: %d ", numero);
+    
+    return 0;
+}
+
+void sumar_referencia(int *numero){
+    
+    *numero +=1; //le sumamos 1 al numero
+    
+    printf("\nValor de numero dentro sumar_referencia() es: %d", *numero);
+    
+    return;
+}

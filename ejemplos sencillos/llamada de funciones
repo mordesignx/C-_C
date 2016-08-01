@@ -1,0 +1,39 @@
+
+<<<llamada de funciones, ejemplo holamundo
+
+void holamundo(void){
+    printf("HOla MUndo \n");
+    return;
+}
+
+int main(void){
+    holamundo();
+    return 0;
+}
+
+
+<<<funcion suma sin prototipo
+
+int main(void){
+    int suma = sumar(5,3);
+    printf("La suma es: %d", suma);
+    return 0;
+}
+
+int sumar(int numero1, int numero2){
+    return numero1 + numero2;
+}
+
+<<<funcion suma con prototipo
+
+int sumar(int numero1, int numero2); /*prototipo*/
+
+int main(void){
+    int suma = sumar(5,3);
+    printf("La suma es: %d", suma);
+    return 0;
+}
+
+int sumar(int numero1, int numero2){
+    return numero1 + numero2;
+}

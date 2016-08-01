@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>arreglos1.c</itemPath>
+      <itemPath>arreglos10.c</itemPath>
+      <itemPath>arreglos11.c</itemPath>
+      <itemPath>arreglos2.c</itemPath>
+      <itemPath>arreglos3.c</itemPath>
+      <itemPath>arreglos4.c</itemPath>
+      <itemPath>arreglos5.c</itemPath>
+      <itemPath>arreglos6.c</itemPath>
+      <itemPath>arreglos7.c</itemPath>
+      <itemPath>arreglos8.c</itemPath>
+      <itemPath>arreglos9.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="arreglos1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos10.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos11.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos7.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos9.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="arreglos1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos10.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos11.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos7.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglos9.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

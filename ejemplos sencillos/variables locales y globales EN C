@@ -1,0 +1,52 @@
+<<< Variables Locales y Globales >>>
+
+<<<<<variable Local
+
+void funcion1(){
+    
+    int dato = 53;
+    char num1 = 'a';
+    
+    printf("FUncion1, dato=%d, num1=%c\n", dato, num1);
+    
+    return;
+}
+
+void funcion2(){
+    
+    int dato = 25;
+    char num2 = 'z';
+    
+    printf("\nFUncion2, dato=%d, num2=%c\n", dato, num2);
+    
+    return 0;
+}
+
+int main(){
+    
+    funcion1();
+    funcion2();
+    return 0;
+}
+
+<<<< Variable Global 
+
+int variable_global = 99; //variable global
+
+void funcion();
+
+int main(void){
+    
+    printf("main(), acceso a variable_global %d\n", variable_global);
+    
+    funcion();
+    
+    return 0;
+}
+
+void funcion(){
+    
+    printf("funcion(), acceso a variable_global %d\n", variable_global);
+    
+    return;
+}

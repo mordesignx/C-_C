@@ -1,0 +1,3 @@
+********************* inicio
+Vector de 2 componentes
+************************* fin

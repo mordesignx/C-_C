@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>ptr1.c</itemPath>
+      <itemPath>ptr2referencia.c</itemPath>
+      <itemPath>ptr2valor.c</itemPath>
+      <itemPath>ptr3_forma1_ptrnoconst-datonoconst.c</itemPath>
+      <itemPath>ptr3_forma2_1_ptrnoconst-datoconst.c</itemPath>
+      <itemPath>ptr3_forma2_ptrnoconst-datoconst.c</itemPath>
+      <itemPath>ptr3_forma3_ptrconst-datonoconst.c</itemPath>
+      <itemPath>ptr3_forma4_ptrconst-datoconst.c</itemPath>
+      <itemPath>ptr4.c</itemPath>
+      <itemPath>ptr5_sizeof1.c</itemPath>
+      <itemPath>ptr5_sizeof2.c</itemPath>
+      <itemPath>ptr6_dezplazamiento.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="ptr1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ptr2referencia.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ptr2valor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ptr3_forma1_ptrnoconst-datonoconst.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="ptr3_forma2_1_ptrnoconst-datoconst.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="ptr3_forma2_ptrnoconst-datoconst.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ptr3_forma3_ptrconst-datonoconst.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ptr3_forma4_ptrconst-datoconst.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ptr4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ptr5_sizeof1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ptr5_sizeof2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ptr6_dezplazamiento.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="ptr1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ptr2referencia.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ptr2valor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ptr3_forma1_ptrnoconst-datonoconst.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="ptr3_forma2_1_ptrnoconst-datoconst.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="ptr3_forma2_ptrnoconst-datoconst.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ptr3_forma3_ptrconst-datonoconst.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ptr3_forma4_ptrconst-datoconst.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ptr4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ptr5_sizeof1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ptr5_sizeof2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ptr6_dezplazamiento.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
