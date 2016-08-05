@@ -35,11 +35,12 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/BusquedaBinaria.o \
 	${OBJECTDIR}/aliasreferencia.o \
 	${OBJECTDIR}/cuarto.o \
+	${OBJECTDIR}/desborde.o \
 	${OBJECTDIR}/desplazamiento.o \
 	${OBJECTDIR}/elprimero.o \
+	${OBJECTDIR}/ficheros_funciones.o \
 	${OBJECTDIR}/lectura_escritura_ficheros.o \
 	${OBJECTDIR}/lectura_escritura_ficheros2.o \
 	${OBJECTDIR}/lectura_escritura_ficheros3.o \
@@ -48,7 +49,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/primero2.o \
 	${OBJECTDIR}/segundo.o \
 	${OBJECTDIR}/tercero.o \
-	${OBJECTDIR}/valoryreferencia.o
+	${OBJECTDIR}/valoryreferencia.o \
+	${OBJECTDIR}/varglobalylocal.o
 
 
 # C Compiler Flags
@@ -75,11 +77,6 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/valoryreferenciac__: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/valoryreferenciac__ ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/BusquedaBinaria.o: BusquedaBinaria.cpp 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/BusquedaBinaria.o BusquedaBinaria.cpp
-
 ${OBJECTDIR}/aliasreferencia.o: aliasreferencia.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -90,6 +87,11 @@ ${OBJECTDIR}/cuarto.o: cuarto.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/cuarto.o cuarto.cpp
 
+${OBJECTDIR}/desborde.o: desborde.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/desborde.o desborde.c
+
 ${OBJECTDIR}/desplazamiento.o: desplazamiento.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -99,6 +101,11 @@ ${OBJECTDIR}/elprimero.o: elprimero.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/elprimero.o elprimero.cpp
+
+${OBJECTDIR}/ficheros_funciones.o: ficheros_funciones.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ficheros_funciones.o ficheros_funciones.cpp
 
 ${OBJECTDIR}/lectura_escritura_ficheros.o: lectura_escritura_ficheros.cpp 
 	${MKDIR} -p ${OBJECTDIR}
@@ -144,6 +151,11 @@ ${OBJECTDIR}/valoryreferencia.o: valoryreferencia.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/valoryreferencia.o valoryreferencia.cpp
+
+${OBJECTDIR}/varglobalylocal.o: varglobalylocal.c++ 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/varglobalylocal.o varglobalylocal.c++
 
 # Subprojects
 .build-subprojects:

@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/ficheros_funciones.o
+	${OBJECTDIR}/BusquedaBinaria.o
 
 
 # C Compiler Flags
@@ -62,10 +62,10 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/valorc__: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/valorc__ ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/ficheros_funciones.o: ficheros_funciones.cpp 
+${OBJECTDIR}/BusquedaBinaria.o: BusquedaBinaria.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ficheros_funciones.o ficheros_funciones.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/BusquedaBinaria.o BusquedaBinaria.cpp
 
 # Subprojects
 .build-subprojects:

@@ -1,0 +1,9 @@
+ingrese una palabra en minuscula: hi
+ LA PALABRA EN MAYUSCULA ES: HI
+
+INGRESE UNA PALABRA EN MAYUSCULAS: HOLA
+ la palabra en minuscula es: hola
+
+
+
+		Hecho por AntiAnxiety

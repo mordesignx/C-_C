@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux
-CND_ARTIFACT_NAME_Debug=apuntadores
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/apuntadores
+CND_ARTIFACT_NAME_Debug=randilo_archivos
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/randilo_archivos
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux/package
-CND_PACKAGE_NAME_Debug=apuntadores.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/apuntadores.tar
+CND_PACKAGE_NAME_Debug=randilo+archivos.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/randilo+archivos.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux
-CND_ARTIFACT_NAME_Release=apuntadores
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/apuntadores
+CND_ARTIFACT_NAME_Release=randilo_archivos
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/randilo_archivos
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux/package
-CND_PACKAGE_NAME_Release=apuntadores.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/apuntadores.tar
+CND_PACKAGE_NAME_Release=randilo+archivos.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/randilo+archivos.tar
 #
 # include compiler specific variables
 #

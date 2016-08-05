@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux
-CND_ARTIFACT_NAME_Debug=randilo
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/randilo
+CND_ARTIFACT_NAME_Debug=archivosenc__
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/archivosenc__
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux/package
-CND_PACKAGE_NAME_Debug=randilo.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/randilo.tar
+CND_PACKAGE_NAME_Debug=archivosenc++.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/archivosenc++.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux
-CND_ARTIFACT_NAME_Release=randilo
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/randilo
+CND_ARTIFACT_NAME_Release=archivosenc__
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/archivosenc__
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux/package
-CND_PACKAGE_NAME_Release=randilo.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/randilo.tar
+CND_PACKAGE_NAME_Release=archivosenc++.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/archivosenc++.tar
 #
 # include compiler specific variables
 #

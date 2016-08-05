@@ -12,11 +12,12 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>BusquedaBinaria.cpp</itemPath>
       <itemPath>aliasreferencia.cpp</itemPath>
       <itemPath>cuarto.cpp</itemPath>
+      <itemPath>desborde.c</itemPath>
       <itemPath>desplazamiento.cpp</itemPath>
       <itemPath>elprimero.cpp</itemPath>
+      <itemPath>ficheros_funciones.cpp</itemPath>
       <itemPath>lectura_escritura_ficheros.cpp</itemPath>
       <itemPath>lectura_escritura_ficheros2.cpp</itemPath>
       <itemPath>lectura_escritura_ficheros3.cpp</itemPath>
@@ -26,6 +27,7 @@
       <itemPath>segundo.cpp</itemPath>
       <itemPath>tercero.cpp</itemPath>
       <itemPath>valoryreferencia.cpp</itemPath>
+      <itemPath>varglobalylocal.c++</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -49,15 +51,17 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="BusquedaBinaria.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="aliasreferencia.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="cuarto.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="desborde.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="desplazamiento.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="elprimero.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ficheros_funciones.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="lectura_escritura_ficheros.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -76,6 +80,8 @@
       <item path="tercero.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="valoryreferencia.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="varglobalylocal.c++" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -98,15 +104,17 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="BusquedaBinaria.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="aliasreferencia.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="cuarto.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="desborde.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="desplazamiento.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="elprimero.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ficheros_funciones.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="lectura_escritura_ficheros.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -125,6 +133,8 @@
       <item path="tercero.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="valoryreferencia.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="varglobalylocal.c++" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
   </confs>

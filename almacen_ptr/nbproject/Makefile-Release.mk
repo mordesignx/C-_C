@@ -46,7 +46,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/ptr4.o \
 	${OBJECTDIR}/ptr5_sizeof1.o \
 	${OBJECTDIR}/ptr5_sizeof2.o \
-	${OBJECTDIR}/ptr6_dezplazamiento.o
+	${OBJECTDIR}/ptr6_dezplazamiento.o \
+	${OBJECTDIR}/ptr7.o
 
 
 # C Compiler Flags
@@ -132,6 +133,11 @@ ${OBJECTDIR}/ptr6_dezplazamiento.o: ptr6_dezplazamiento.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ptr6_dezplazamiento.o ptr6_dezplazamiento.c
+
+${OBJECTDIR}/ptr7.o: ptr7.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ptr7.o ptr7.c
 
 # Subprojects
 .build-subprojects:

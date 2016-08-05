@@ -24,6 +24,7 @@
       <itemPath>ptr5_sizeof1.c</itemPath>
       <itemPath>ptr5_sizeof2.c</itemPath>
       <itemPath>ptr6_dezplazamiento.c</itemPath>
+      <itemPath>ptr7.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -77,6 +78,8 @@
       </item>
       <item path="ptr6_dezplazamiento.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="ptr7.c" ex="false" tool="0" flavor2="0">
+      </item>
     </conf>
     <conf name="Release" type="1">
       <toolsSet>
@@ -127,6 +130,8 @@
       <item path="ptr5_sizeof2.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="ptr6_dezplazamiento.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ptr7.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>

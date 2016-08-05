@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=apuntadores
+PROJECTNAME=randilo+archivos
 
 # Active Configuration
 DEFAULTCONF=Debug
